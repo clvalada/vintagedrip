@@ -6,9 +6,8 @@ import backgroundImage from '../images/4951061_2579646.jpg'
 const Navbar = () => {
     return (  
       <nav className="navbar" style={{ backgroundImage: `url(${backgroundImage})` }}>
-        <h1>Vintage Drip</h1>
+        <h1><a href="/">Vintage Drip</a></h1>
         <div className="links">
-          <Link to="/">Home</Link>
           <Link to="/Hats">Hats</Link>
           <Link to="/Shirts">Shirts</Link>
           <Link to="/Other">Other</Link>

@@ -1,19 +1,15 @@
 import React from 'react';
-import About from './About';
 import Hats from './Hats';
-import Footer from './Footer';
+import Featured from './Featured';
 
 const Home = () => {
     return (  
         <div className="home">
             <div>
-                <About />
+                <Featured />
             </div>
             <div>
                 <Hats />
-            </div>
-            <div>
-                <Footer />
             </div>
         </div>
     );
