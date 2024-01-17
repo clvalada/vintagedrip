@@ -21,10 +21,9 @@
 
 .App {
   text-align: center;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
 }
-
 
 .home {
   display: flex;
@@ -37,26 +36,61 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  width: 900px;
+  width: 1000px;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
   color: #333;
   position: fixed;
-  background-image:'./public/images/4951061_2579646.jpg';
+  background: url('./images/4951061_2579646.jpg'); 
   background-size: cover;
   z-index: 1000;
-  border-bottom: 1px solid #fe97af;
+  border-bottom: 5px solid #fe97af;
+  border-top: 5px solid #fe97af;
 }
 
 .navbar h1 {
-  color: #black;
+  color: #333;
   font-family: 'stormfaze';
   font-size: 50px;
+  text-decoration: none; 
+  text-shadow: 2px 2px 4px rgba(254, 151, 175, 2);
+}
+
+.navbar h1 a.navbar-logo {
+  text-decoration: none;
+  background-color: transparent;
 }
 
 .navbar .links {
+  display: flex;
+  align-items: center;
+}
+
+.navbar .links .dropdown-item,
+.Links .dropdown-item {
+  color: #333;
+  padding: 10px;
+}
+
+.navbar .links .dropdown-menu,
+.Links .dropdown-menu {
+  border: none;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.navbar .links .dropdown-toggle,
+.Links .dropdown-toggle {
+  color: #333;
+  background-color: white;
+  border: none;
+}
+
+.Links {
+  display: flex;
+  align-items: center;
   margin-left: auto;
+  justify-content: flex-end;
 }
 
 .navbar a {
@@ -68,7 +102,8 @@
 }
 
 .navbar a:hover {
-  text-decoration: underline;
+  text-decoration: #fe97af wavy underline;
+  background-color: whitesmoke;
 }
 
 .content {
@@ -86,12 +121,13 @@ body {
 .footer {
   padding: 20px;
   display: flex;
-  max-width: 900px;
+  max-width: 1000px;
   margin: 0 auto;
   border-top: 2px solid #fe97af;
   color: #F7F6F6;
   justify-content: center;
-  background-image:'./public/images/4951061_2579646.jpg';
+  background: url('./images/4951061_2579646.jpg');
+  background-size: cover;
   margin-top: 20px;
   z-index: 1;
 }

@@ -4,7 +4,8 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Hats from './components/Hats';
 import Shirts from './components/Shirts';
-import Contact from './components/Contact';
+import Other from './components/Other';
+import About from './components/About';
 import Blog from './components/Blog';
 
 // Define App component
@@ -17,7 +18,8 @@ const App = () => {
           <Route path="/" element={<Home />} />
           <Route path="Hats" element={<Hats />} />
           <Route path="Shirts" element={<Shirts />} />
-          <Route path="Other" element={<Contact />} />
+          <Route path="Other" element={<Other />} />
+          <Route path="About" element={<About />} />
           <Route path="Blog" element={<Blog />} />
         </Routes>
       </div>
