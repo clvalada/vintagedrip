@@ -1,11 +1,7 @@
-import React from 'react';
-
 const Hats = () => {
-  return (
-    <div>
-        <p>Hats </p>
-    </div>
-  );
-};
-
+    return (  
+        <p>Hats</p>
+    );
+}
+ 
 export default Hats;

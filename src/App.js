@@ -1,8 +1,11 @@
 import React from 'react';
 import { Routes, Route } from 'react-router-dom';
-import Home from './Home';
-import Contact from './Contact';
-import Navbar from './Navbar';
+import Home from './components/Home';
+import Navbar from './components/Navbar';
+import Hats from './components/Hats';
+import Shirts from './components/Shirts';
+import Contact from './components/Contact';
+import Blog from './components/Blog';
 
 // Define App component
 const App = () => {

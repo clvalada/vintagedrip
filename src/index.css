@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap');
+
+@font-face {
+  font-family: 'Karma'; 
+  src: url('./fonts/KarmaFuture.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  font-family: "Lato";
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  margin-top: 0;
+  height: 100vh;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  width: 900px;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #F7F6F6;
+  position: fixed;
+  background-image:'./public/images/4951061_2579646.jpg';
+  z-index: 1000;
+  border-bottom: 1px solid #fe97af;
+}
+
+.navbar h1 {
+  color: #black;
+  font-family: 'Karma';
+  font-size: 
+}
+
+.navbar .links {
+  margin-left: auto;
+  color: #F7F6F6;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: #F7F6F6;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.footer {
+  padding: 20px;
+  display: flex;
+  max-width: 900px;
+  margin: 0 auto;
+  border-top: 2px solid #fe97af;
+  color: #F7F6F6;
+  justify-content: center;
+  background-image:'./public/images/4951061_2579646.jpg';
+  margin-top: 20px;
+}
