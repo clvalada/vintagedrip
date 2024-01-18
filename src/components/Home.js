@@ -1,12 +1,12 @@
 import React from 'react';
 import Hats from './Hats';
-import Featured from './Featured';
+import Hero from './Hero';
 
 const Home = () => {
     return (  
         <div className="home">
             <div>
-                <Featured />
+                <Hero />
             </div>
             <div>
                 <Hats />
