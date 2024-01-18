@@ -36,7 +36,7 @@
   padding: 10px;
   display: flex;
   align-items: center;
-  width: 1000px;
+  width: 100%;
   top: 0;
   left: 50%;
   transform: translateX(-50%);
@@ -143,4 +143,26 @@ body {
   background-size: cover;
   margin-top: 20px;
   z-index: 1;
+}
+
+
+@media screen and (max-width: 600px) {
+  .navbar {
+    flex-direction: column; 
+    align-items: flex-start; 
+  }
+
+  .navbar h1 {
+    font-size: 30px; 
+    margin-bottom: 10px; 
+  }
+
+  .navbar .links {
+    margin-left: 0;
+    justify-content: center; 
+  }
+
+  .navbar a {
+    margin: 8px 0; 
+  }
 }
