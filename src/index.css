@@ -142,6 +142,8 @@ body {
   background-size: cover;
   margin-top: 20px;
   z-index: 1;
+  color: #333;
+  font-family: 'stormfaze';
 }
 
 
@@ -163,5 +165,9 @@ body {
 
   .navbar a {
     margin: 8px 0; 
+  }
+
+  .hero {
+    padding-top: 20px;
   }
 }
