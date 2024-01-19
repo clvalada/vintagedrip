@@ -1,6 +1,6 @@
 import React from 'react';
-import Hats from './Hats';
 import Hero from './Hero';
+import Featured from './Featured';
 
 const Home = () => {
     return (  
@@ -9,7 +9,7 @@ const Home = () => {
                 <Hero />
             </div>
             <div>
-                <Hats />
+                <Featured />
             </div>
         </div>
     );
