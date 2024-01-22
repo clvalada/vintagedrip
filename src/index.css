@@ -39,7 +39,7 @@ body {
 }
 
 .navbar {
-  padding: 10px;
+  padding: 0px;
   display: flex;
   align-items: center;
   width: 100%;
@@ -54,6 +54,7 @@ body {
   z-index: 1000;
   border-bottom: 5px solid #fe97af;
   border-top: 5px solid #fe97af;
+  justify-content: space-between;
 }
 
 .navbar h1 {
@@ -61,7 +62,21 @@ body {
   font-family: 'stormfaze';
   font-size: 50px;
   text-decoration: none; 
+  text-shadow: 2px 2px 4px #73c4be;
+}
+ h1 {
+  color: #333;
+  font-size: 30px;
+  text-decoration: none; 
   text-shadow: 2px 2px 4px #fe97af;
+ }
+.navbar-images {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-image {
+  width: 120px;
 }
 
 .navbar h1 a.navbar-logo {
@@ -110,8 +125,8 @@ body {
 }
 
 .navbar a:hover {
-  text-decoration: #fe97af wavy underline;
-  background-color: whitesmoke;
+  text-decoration: #73c4be wavy underline 5px;
+  background-color: transparent;
 }
 
 .hero {
@@ -157,7 +172,8 @@ body {
 @media screen and (max-width: 600px) {
   .navbar {
     flex-direction: column; 
-    align-items: flex-start; 
+    align-items: center; 
+    max-height: auto;
   }
 
   .navbar h1 {
