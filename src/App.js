@@ -7,6 +7,7 @@ import Shirts from './components/Shirts';
 import Other from './components/Other';
 import About from './components/About';
 import Blog from './components/Blog';
+import Footer from './components/Footer'
 
 // Define App component
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
           <Route path="Blog" element={<Blog />} />
         </Routes>
       </div>
+      <Footer />
    </div>
   );
 }
