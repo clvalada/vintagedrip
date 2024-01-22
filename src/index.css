@@ -71,7 +71,7 @@ body {
   color: #333;
   font-size: 30px;
   text-decoration: none; 
-  text-shadow: 2px 2px 4px #fe97af;
+  text-shadow: 2px 2px 4px #73c4be;
  }
 .hero-images {
   display: flex;
@@ -92,7 +92,7 @@ body {
   align-items: center;
 }
 
-.navbar .links .dropdown-item,
+/*.navbar .links .dropdown-item,
 .Links .dropdown-item {
   color: #333;
   padding: 10px;
@@ -110,14 +110,9 @@ body {
   background-color: white;
   border: none;
 }
-
+*/
 .Links {
-  display: flex;
-  align-items: center;
-  margin-left: auto;
   margin-right: 20px;
-  justify-content: flex-end;
-  font-size: 20px;
 }
 
 .navbar a {
@@ -181,7 +176,7 @@ body {
   }
 
   .navbar a {
-    margin: 8px 0; 
+    margin: 15px 0; 
   }
 
   .hero {
@@ -191,5 +186,10 @@ body {
   .content {
     max-width: auto;
     max-height: auto;
+  }
+
+  .Links {
+    margin-right: 0px;
+    background-color: #fe97af;
   }
 }
