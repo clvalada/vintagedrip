@@ -3,7 +3,7 @@ import React from 'react';
 const Blog = () => {
   return (
     <div>
-        <p>Stay tuned for the Vintage Drip fasion blog.</p>
+        <h1>Stay tuned for the Vintage Drip fasion blog.</h1>
     </div>
   );
 };

@@ -1,6 +1,6 @@
 const Other = () => {
     return (  
-        <p>Come back soon. New inventory added often.</p>
+        <h1>Come back soon. New inventory added often.</h1>
     );
 };
  

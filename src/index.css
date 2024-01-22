@@ -70,13 +70,13 @@ body {
   text-decoration: none; 
   text-shadow: 2px 2px 4px #fe97af;
  }
-.navbar-images {
+.hero-images {
   display: flex;
   align-items: center;
 }
 
-.navbar-image {
-  width: 120px;
+.hero-image {
+  max-height: 200px;
 }
 
 .navbar h1 a.navbar-logo {
@@ -136,10 +136,7 @@ body {
   border-bottom: 5px solid #fe97af;
 }
 
-.hero img {
-  max-width: 100%;
-  height: auto;
-}
+
 
 .content {
   max-width: 1100;
@@ -192,5 +189,10 @@ body {
 
   .hero {
     padding-top: 20px;
+  }
+
+  .content {
+    max-width: auto;
+    max-height: auto;
   }
 }

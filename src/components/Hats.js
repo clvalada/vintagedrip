@@ -206,7 +206,7 @@ const Hats = () => {
 
   return (
     <>
-      <p>Vintage '80s and '90s NHL, NBA, MLB, and NFL hats from Sports Specialties, Starter, The Game, New Era, and more.</p>
+      <h1>Vintage '80s and '90s NHL, NBA, MLB, and NFL hats from Sports Specialties, Starter, The Game, New Era, and more.</h1>
       <br></br>
       <div id="collection-component-1705702104741"></div>
     </>

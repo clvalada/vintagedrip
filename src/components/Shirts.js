@@ -206,7 +206,7 @@ const Shirts = () => {
 
   return (
     <>
-      <p>Vintage t-shirts from the 1980s and 90s.</p>
+      <h1>Vintage t-shirts from the 1980s and 90s.</h1>
       <br></br>
       <div id="collection-component-1705702836602"></div>
     </>
