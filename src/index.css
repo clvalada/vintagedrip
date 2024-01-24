@@ -176,11 +176,20 @@ body {
   }
 
   .navbar a {
-    margin: 15px 0; 
+    margin: 15px 0;
+    font-size: larger; 
   }
 
   .hero {
     padding-top: 20px;
+    overflow: hidden;
+    display: flex;
+  }
+
+  .hero img {
+    max-width: 35%;
+    height: auto;
+    align-self: flex-end;
   }
 
   .content {
