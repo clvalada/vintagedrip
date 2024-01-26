@@ -139,17 +139,17 @@ border-bottom: 5px solid #fe97af;
 padding-bottom: 10px;
 }
 
-#email {
+#MERGE0 {
   width: 300px;
   padding: 5px; 
-  font-size: 16px;
+  font-size: 15px;
   border-color: #80dad3;
   border-top: 0;
   border-left: 0;
   border-right: 0;
 }
 
-#email::placeholder {
+#MERGE0::placeholder {
   font-style: italic;
   text-align: center;
 }
@@ -162,12 +162,15 @@ body {
 
 button {
   font-family: Oxygen, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000000;
   background-color: #80dad3;
   padding: 5px 10px;
-  border: 0;
-  box-shadow: 2px 2px 4px #73c4be;
+  border-color: #80dad3;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+
 }
   
   button:hover {
