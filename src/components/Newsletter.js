@@ -6,14 +6,8 @@ const Newsletter = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-
-    // Here, you can add logic to handle the form submission, like sending the email to a server or storing it in your database.
     console.log("Email submitted:", email);
-
-    // Reset the form after submission
     setEmail("");
-
-    // Update the subscription status
     setSubscribed(true);
   };
 
@@ -23,13 +17,15 @@ const Newsletter = () => {
         <p>Rad! We'll hit you up when the fresh stuff drops.</p>      ) : (
         <>
         <h3>Stay in the loop—subscribe and we'll ping you about our newest gear!</h3>
-          <form onSubmit={handleSubmit}>
+        <form onSubmit={handleSubmit} action="https://store.us9.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="aab3b04908d1e6bb55a846eb0" />
+            <input type="hidden" name="id" value="a9453507da" />
             <label htmlFor="email"></label>
             <input
               placeholder="Your email address"
               type="email"
-              id="email"
-              name="email"
+              id="MERGE0"
+              name="MERGE0"
               value={email}
               onChange={(e) => setEmail(e.target.value)}
               required
