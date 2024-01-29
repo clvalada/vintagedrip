@@ -207,7 +207,7 @@ const Other = () => {
 
   return (
     <>
-      <h1>Come back soon. New inventory added often.</h1>
+      <h1>Check back soon! Fresh arrivals weekly.🚀</h1>
       <div id='collection-component-1706552898397'></div>
     </>
   );
