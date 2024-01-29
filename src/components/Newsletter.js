@@ -1,6 +1,4 @@
 import React, { useState } from "react";
-const user_id = process.env.REACT_APP_MAILCHIMP_USER_ID;
-const audience_id = process.env.REACT_APP_MAILCHIMP_AUDIENCE_ID;
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
