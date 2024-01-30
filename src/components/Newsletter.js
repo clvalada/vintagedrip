@@ -1,15 +1,21 @@
 import React, { useState } from "react";
+import jsonp from 'jsonp';
 
 const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+ const handleSubmit = (e) => {
+  e.preventDefault();
+  const url = "https://store.us9.list-manage.com/subscribe/post-json?u=aab3b04908d1e6bb55a846eb0&id=a9453507da&f_id=000526e1f0";
+  const emailParam = encodeURIComponent(email);
+
+  jsonp(`${url}&EMAIL=${emailParam}`, { param: 'c' }, (_, data) => {
     console.log("Email submitted:", email);
     setEmail("");
     setSubscribed(true);
-  };
+  });
+};
 
   return (
     <div className="newsletter-container">
