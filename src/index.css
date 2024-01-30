@@ -92,25 +92,6 @@ body {
   align-items: center;
 }
 
-/*.navbar .links .dropdown-item,
-.Links .dropdown-item {
-  color: #333;
-  padding: 10px;
-}
-
-.navbar .links .dropdown-menu,
-.Links .dropdown-menu {
-  border: none;
-  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-.navbar .links .dropdown-toggle,
-.Links .dropdown-toggle {
-  color: #333;
-  background-color: white;
-  border: none;
-}
-*/
 .Links {
   margin-right: 20px;
 }
