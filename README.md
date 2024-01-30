@@ -17,7 +17,7 @@ Desktop View
 ![Desktop View.](src/components/VintageDripDesktop.png)
 
 Mobile View
-![Desktop View.](src/components/VintageDripMobile.png)
+![Desktop View.](src/components/VintageDripMobile.jpeg)
 
 ## Usage
 
