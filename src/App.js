@@ -9,6 +9,7 @@ import About from './components/About';
 import Blog from './components/Blog';
 import Footer from './components/Footer'
 
+
 // Define App component
 const App = () => {
   return (
@@ -17,11 +18,11 @@ const App = () => {
       <div className="content">
         <Routes>
           <Route path="/" element={<Home />} />
-          <Route path="Hats" element={<Hats />} />
-          <Route path="Shirts" element={<Shirts />} />
-          <Route path="Other" element={<Other />} />
-          <Route path="About" element={<About />} />
-          <Route path="Blog" element={<Blog />} />
+          <Route path="/Hats" element={<Hats />} />
+          <Route path="/Shirts" element={<Shirts />} />
+          <Route path="/Other" element={<Other />} />
+          <Route path="/About" element={<About />} />
+          <Route path="/Blog" element={<Blog />} />
         </Routes>
       </div>
       <Footer />
