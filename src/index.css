@@ -19,6 +19,9 @@ body {
   font-family: "Lato";
   background-image: url('./images/4951061_2579646.jpg');
   background-size: cover;
+  background-position: center center;
+  background-repeat: repeat;
+  height: 100vh;
 }
 
 .content {
@@ -154,7 +157,7 @@ button {
 
 }
   
-  button:hover {
+button:hover {
   color: #000000;
   background-color: #73c4be;
 }
@@ -170,6 +173,26 @@ button {
   margin-top: 20px;
   color: #333;
   font-family: 'stormfaze';
+}
+
+.blog-container {
+  gap: 20px;
+}
+
+.blogpost {
+  margin-bottom: 20px;
+}
+
+.line {
+  border-top: 5px solid #fe97af;
+  width: 90%;
+  margin: 50px auto;
+
+}
+
+.blog-image {
+  max-width: 300px;
+  box-shadow: 2px 2px 4px #73c4be;
 }
 
 @media screen and (max-width: 800px) {

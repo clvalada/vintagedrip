@@ -6,7 +6,7 @@ const BlogPost90sSports = () => {
   return (
     <div>
       <h1>Game On: Reliving the Glory Days of '90s Sports</h1>
-      <p>Posted on January 28, 2024</p>
+      <p>Posted on January 21, 2024</p>
 
       <div>
         <p>The 1990s was a sporting era that left an indelible mark on the hearts of fans worldwide. From iconic moments to legendary athletes, '90s sports were a spectacle of talent, grit, and unforgettable competitions. Let's take a trip down memory lane and relive the glory days of '90s sports.</p>

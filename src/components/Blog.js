@@ -6,11 +6,16 @@ import BlogPost90sSports from "../blog/BlogPost90sSports.js"
 
 const Blog = () => {
     return (
-      <div>
-        <BlogPost1 />
-        <BlogPost90sSports />
+      <div className="blog-container">
+        <div className="blogpost">
+          <BlogPost1 />
+        </div>
+        <div className="line"></div>
+        <div className="blogpost">
+          <BlogPost90sSports />
+        </div>
       </div>
     );
   };
-  
+
   export default Blog;
