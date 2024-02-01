@@ -6,7 +6,7 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Hats from './components/Hats';
 import Shirts from './components/Shirts';
-import Other from './components/Other';
+import Other from './components/Misc';
 import About from './components/About';
 import Blog from './components/Blog';
 import Footer from './components/Footer'

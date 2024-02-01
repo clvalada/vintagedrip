@@ -1,7 +1,7 @@
 /* global ShopifyBuy */
 import React, { useEffect } from 'react';
 
-const Other = () => {
+const Misc = () => {
   useEffect(() => {
     const scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
 
@@ -213,4 +213,4 @@ const Other = () => {
   );
 };
 
-export default Other;
+export default Misc;
