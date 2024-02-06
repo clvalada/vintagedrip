@@ -5,6 +5,7 @@ const Newsletter = () => {
   const [email, setEmail] = useState("");
   const [subscribed, setSubscribed] = useState(false);
 
+  // Lines 8 through 20 adapted from This Dot blog "How to Integrate MailChimp Forms in a React Project"
  const handleSubmit = (e) => {
   e.preventDefault();
   const url = "https://store.us9.list-manage.com/subscribe/post-json?u=aab3b04908d1e6bb55a846eb0&id=a9453507da&f_id=000526e1f0";
