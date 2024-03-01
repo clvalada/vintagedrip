@@ -4,16 +4,16 @@ import React, { useEffect } from 'react';
 const Hats = () => {
   useEffect(() => {
     const scriptURL = 'https://sdks.shopifycdn.com/buy-button/latest/buy-button-storefront.min.js';
-
-    if (window.ShopifyBuy) {
-      if (window.ShopifyBuy.UI) {
-        ShopifyBuyInit();
+    
+      if (window.ShopifyBuy) {
+        if (window.ShopifyBuy.UI) {
+          ShopifyBuyInit();
+        } else {
+          loadScript();
+        }
       } else {
         loadScript();
       }
-    } else {
-      loadScript();
-    }
 
     function loadScript() {
       const script = document.createElement('script');
@@ -26,7 +26,7 @@ const Hats = () => {
     function ShopifyBuyInit() {
       const client = ShopifyBuy.buildClient({
         domain: 'crunchmoto.myshopify.com',
-        storefrontAccessToken: process.env.REACT_APP_SHOPIFY_ACCESS_TOKEN, // Make sure to prefix with REACT_APP_
+        storefrontAccessToken: process.env.REACT_APP_SHOPIFY_ACCESS_TOKEN,
       });
 
       ShopifyBuy.UI.onReady(client).then((ui) => {
