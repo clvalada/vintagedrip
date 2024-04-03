@@ -210,7 +210,7 @@ const Featured = () => {
 
   return (
     <div>
-      <h1>Featured Items</h1>
+      <h1>Fresh Gear</h1>
       <br></br>
       <div id='collection-component-1705700179779'></div>
     </div>
